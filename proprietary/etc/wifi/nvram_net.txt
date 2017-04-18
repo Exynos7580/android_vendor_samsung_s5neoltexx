@@ -1,9 +1,9 @@
-# SS 43455 S5-NEO Rev0.5 NVRAM 20150714 for FW57
+# SS 43455 S5-NEO Rev0.3 NVRAM 20150630 for FW53 _ 11b 1dB up
 
 NVRAMRev=$Rev: 498373 $
 sromrev=11
-ccode=BR
-regrev=2
+ccode=GB
+regrev=6
 vendid=0x14e4
 devid=0x43ab
 manfid=0x2d0
@@ -35,22 +35,22 @@ AvVmid_c0=0,157,1,126,1,126,1,126,1,126
 ag0=0
 ag1=0
 
-## new PA parameter with filter matching, 5G low range : 0 to 15 dBm
+## new PA parameter with filter matching
 pa2ga0=0xff4f,0x1641,0xfd5e
 pa2ga1=0xff5e,0x0ee8,0xfdec
 pa5ga0=0xff4f,0x15c1,0xfd6a,0xff4f,0x161d,0xfd62,0xff5c,0x153a,0xfd84,0xff8a,0x1555,0xfda3
-pa5ga1=0xff7f,0x0ff9,0xfdd0,0xff82,0x0fcd,0xfdd7,0xff8f,0x0ece,0xfdf1,0xffd4,0x0ec5,0xfdf8
+pa5ga1=0xff60,0x0ec4,0xfdf6,0xff55,0x0e20,0xfe0b,0xff6a,0x0ddb,0xfe0a,0xff7f,0x0d43,0xfe14
 
 cckpwroffset0=-4
 
 maxp2ga0=74
-ofdmlrbw202gpo=0x4443
+ofdmlrbw202gpo=0x4444
 dot11agofdmhrbw202gpo=0x6644
 mcsbw202gpo=0xaa888664
 maxp5ga0=74,74,74,74
-mcsbw205glpo=0x88866641
-mcsbw205gmpo=0x88866641
-mcsbw205ghpo=0x88866641
+mcsbw205glpo=0x88866642
+mcsbw205gmpo=0x88866642
+mcsbw205ghpo=0x88866642
 mcsbw405glpo=0xaaa88864
 mcsbw405gmpo=0xaaa88864
 mcsbw405ghpo=0xaaa88864
@@ -60,8 +60,8 @@ mcsbw805ghpo=0xcccaaa86
 
 itrsw=1
 pdoffset2g40ma0=10
-pdoffset40ma0=0xaaaa
-pdoffset80ma0=0xaaaa
+pdoffset40ma0=0x8888
+pdoffset80ma0=0x8888
 extpagain5g=2
 extpagain2g=2
 lowpowerrange2g=0
@@ -111,11 +111,3 @@ ldo1=4
 rawtempsense=0x1ff
 cckPwrIdxCorr=3
 dot11b_opts=0x3aa85
-
-btc_params1003=0
-btc_params1005=0
-
-# 2G CH12/CH13 TX power limit –q dBm
-#fccpwrch12=
-#fccpwrch13=
-#fccpwroverride=0
