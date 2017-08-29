@@ -31,6 +31,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/gpsd:system/bin/gpsd \
     $(LOCAL_PATH)/proprietary/lib/hw/gps.universal7580.so:system/lib/hw/gps.universal7580.so \
     $(LOCAL_PATH)/proprietary/lib/libwrappergps.so:system/lib/libwrappergps.so \
+    $(LOCAL_PATH)/proprietary/lib/libfloatingfeature.so:system/lib/libfloatingfeature.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
     $(LOCAL_PATH)/proprietary/vendor/firmware/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin \
     $(LOCAL_PATH)/proprietary/vendor/firmware/fimc_is_fd.bin:system/vendor/firmware/fimc_is_fd.bin \
@@ -142,6 +143,13 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:system/vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
     $(LOCAL_PATH)/proprietary/vendor/lib/libLifevibes_lvverx.so:system/vendor/lib/libLifevibes_lvverx.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libLifevibes_lvvetx.so:system/vendor/lib/libLifevibes_lvvetx.so \
+    $(LOCAL_PATH)/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:system/lib/omx/libOMX.Exynos.AVC.Decoder.so \
+    $(LOCAL_PATH)/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so \
+    $(LOCAL_PATH)/proprietary/lib/omx/libOMX.Exynos.MPEG4.Decoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Decoder.so \
+    $(LOCAL_PATH)/proprietary/lib/omx/libOMX.Exynos.MPEG4.Encoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Encoder.so \
+    $(LOCAL_PATH)/proprietary/lib/omx/libOMX.Exynos.VP8.Decoder.so:system/lib/omx/libOMX.Exynos.VP8.Decoder.so \
+    $(LOCAL_PATH)/proprietary/lib/omx/libOMX.Exynos.VP8.Encoder.so:system/lib/omx/libOMX.Exynos.VP8.Encoder.so \
+    $(LOCAL_PATH)/proprietary/lib/omx/libOMX.Exynos.WMV.Decoder.so:system/lib/omx/libOMX.Exynos.WMV.Decoder.so \
     $(LOCAL_PATH)/proprietary/bin/rild:system/bin/rild \
     $(LOCAL_PATH)/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     $(LOCAL_PATH)/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
