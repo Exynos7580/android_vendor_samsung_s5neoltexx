@@ -19,51 +19,51 @@ LOCAL_PATH := vendor/samsung/s5neoltexx
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/firmware/bcm43455_V0109.0146.hcd:system/vendor/firmware/bcm43455_V0109.0146.hcd \
-    $(LOCAL_PATH)/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
-    $(LOCAL_PATH)/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
-    $(LOCAL_PATH)/proprietary/lib/hw/camera.universal7580.so:system/lib/hw/camera.universal7580.so \
-    $(LOCAL_PATH)/proprietary/lib/libexynosv4l2.so:system/lib/libexynosv4l2.so \
-    $(LOCAL_PATH)/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
-    $(LOCAL_PATH)/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
-    $(LOCAL_PATH)/proprietary/lib/libuniplugin.so:system/lib/libuniplugin.so \
-    $(LOCAL_PATH)/proprietary/lib/libsensorlistener.so:system/lib/libsensorlistener.so \
+    $(LOCAL_PATH)/proprietary/vendor/cameradata/datapattern_420sp.yuv:system/vendor/cameradata/datapattern_420sp.yuv \
+    $(LOCAL_PATH)/proprietary/vendor/cameradata/datapattern_front_420sp.yuv:system/vendor/cameradata/datapattern_front_420sp.yuv \
+    $(LOCAL_PATH)/proprietary/vendor/lib/hw/camera.universal7580.so:system/vendor/lib/hw/camera.universal7580.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libexynosv4l2.so:system/vendor/lib/libexynosv4l2.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libexynoscamera.so:system/vendor/lib/libexynoscamera.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libhwjpeg.so:system/vendor/lib/libhwjpeg.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libuniplugin.so:system/vendor/lib/libuniplugin.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libsensorlistener.so:system/vendor/lib/libsensorlistener.so \
     $(LOCAL_PATH)/proprietary/vendor/firmware/setfile_3p3.bin:system/vendor/firmware/setfile_3p3.bin \
     $(LOCAL_PATH)/proprietary/vendor/firmware/setfile_5e3.bin:system/vendor/firmware/setfile_5e3.bin \
-	$(LOCAL_PATH)/proprietary/lib/hw/gralloc.exynos5.so:system/lib/hw/gralloc.exynos5.so \
-    $(LOCAL_PATH)/proprietary/bin/gps.cer:system/bin/gps.cer \
-    $(LOCAL_PATH)/proprietary/bin/gpsd:system/bin/gpsd \
-    $(LOCAL_PATH)/proprietary/lib/hw/gps.universal7580.so:system/lib/hw/gps.universal7580.so \
-    $(LOCAL_PATH)/proprietary/lib/libwrappergps.so:system/lib/libwrappergps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/hw/gralloc.exynos5.so:system/vendor/lib/hw/gralloc.exynos5.so \
+    $(LOCAL_PATH)/proprietary/vendor/bin/gps.cer:system/vendor/bin/gps.cer \
+    $(LOCAL_PATH)/proprietary/vendor/bin/gpsd:system/vendor/bin/gpsd \
+    $(LOCAL_PATH)/proprietary/vendor/lib/hw/gps.universal7580.so:system/vendor/lib/hw/gps.universal7580.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libwrappergps.so:system/vendor/lib/libwrappergps.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
     $(LOCAL_PATH)/proprietary/vendor/firmware/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin \
     $(LOCAL_PATH)/proprietary/vendor/firmware/fimc_is_fd.bin:system/vendor/firmware/fimc_is_fd.bin \
     $(LOCAL_PATH)/proprietary/vendor/firmware/fimc_is_fw2_3p3.bin:system/vendor/firmware/fimc_is_fw2_3p3.bin \
-    $(LOCAL_PATH)/proprietary/app/020a0000000000000000000000000000.drbin:system/app/020a0000000000000000000000000000.drbin \
-    $(LOCAL_PATH)/proprietary/app/FFFFFFFF000000000000000000000001.drbin:system/app/FFFFFFFF000000000000000000000001.drbin \
-    $(LOCAL_PATH)/proprietary/app/mcRegistry/00060308060501020000000000000000.tlbin:system/app/mcRegistry/00060308060501020000000000000000.tlbin \
-    $(LOCAL_PATH)/proprietary/app/mcRegistry/02010000080300030000000000000000.tlbin:system/app/mcRegistry/02010000080300030000000000000000.tlbin \
-    $(LOCAL_PATH)/proprietary/app/mcRegistry/07010000000000000000000000000000.tlbin:system/app/mcRegistry/07010000000000000000000000000000.tlbin \
-    $(LOCAL_PATH)/proprietary/app/mcRegistry/07060000000000000000000000000000.tlbin:system/app/mcRegistry/07060000000000000000000000000000.tlbin \
-    $(LOCAL_PATH)/proprietary/app/mcRegistry/08130000000000000000000000000000.tlbin:system/app/mcRegistry/08130000000000000000000000000000.tlbin \
-    $(LOCAL_PATH)/proprietary/app/mcRegistry/ffffffff00000000000000000000000a.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000a.tlbin \
-    $(LOCAL_PATH)/proprietary/app/mcRegistry/ffffffff00000000000000000000000c.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000c.tlbin \
-    $(LOCAL_PATH)/proprietary/app/mcRegistry/ffffffff00000000000000000000000d.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000d.tlbin \
-    $(LOCAL_PATH)/proprietary/app/mcRegistry/ffffffff00000000000000000000000f.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000f.tlbin \
-    $(LOCAL_PATH)/proprietary/app/mcRegistry/ffffffff000000000000000000000004.tlbin:system/app/mcRegistry/ffffffff000000000000000000000004.tlbin \
-    $(LOCAL_PATH)/proprietary/app/mcRegistry/ffffffff000000000000000000000005.tlbin:system/app/mcRegistry/ffffffff000000000000000000000005.tlbin \
-    $(LOCAL_PATH)/proprietary/app/mcRegistry/ffffffff000000000000000000000012.tlbin:system/app/mcRegistry/ffffffff000000000000000000000012.tlbin \
-    $(LOCAL_PATH)/proprietary/app/mcRegistry/ffffffff000000000000000000000013.tlbin:system/app/mcRegistry/ffffffff000000000000000000000013.tlbin \
-    $(LOCAL_PATH)/proprietary/app/mcRegistry/ffffffff000000000000000000000016.tlbin:system/app/mcRegistry/ffffffff000000000000000000000016.tlbin \
-    $(LOCAL_PATH)/proprietary/app/mcRegistry/ffffffff000000000000000000000017.tlbin:system/app/mcRegistry/ffffffff000000000000000000000017.tlbin \
-    $(LOCAL_PATH)/proprietary/app/mcRegistry/ffffffff000000000000000000000019.tlbin:system/app/mcRegistry/ffffffff000000000000000000000019.tlbin \
-    $(LOCAL_PATH)/proprietary/app/mcRegistry/ffffffff000000000000000000000021.tlbin:system/app/mcRegistry/ffffffff000000000000000000000021.tlbin \
-    $(LOCAL_PATH)/proprietary/app/mcRegistry/ffffffff000000000000000000000041.tlbin:system/app/mcRegistry/ffffffff000000000000000000000041.tlbin \
-    $(LOCAL_PATH)/proprietary/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin:system/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin \
-    $(LOCAL_PATH)/proprietary/app/mcRegistry/ffffffffd00000000000000000000004.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000004.tlbin \
-    $(LOCAL_PATH)/proprietary/app/mcRegistry/ffffffffd00000000000000000000016.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000016.tlbin \
-    $(LOCAL_PATH)/proprietary/app/mcRegistry/FFFFFFFFD00000000000000000000016.tlbin:system/app/mcRegistry/FFFFFFFFD00000000000000000000016.tlbin \
-    $(LOCAL_PATH)/proprietary/app/mcRegistry/fffffffff0000000000000000000001e.tlbin:system/app/mcRegistry/fffffffff0000000000000000000001e.tlbin \
-    $(LOCAL_PATH)/proprietary/bin/cs:system/bin/cs \
+    $(LOCAL_PATH)/proprietary/vendor/app/020a0000000000000000000000000000.drbin:system/vendor/app/020a0000000000000000000000000000.drbin \
+    $(LOCAL_PATH)/proprietary/vendor/app/FFFFFFFF000000000000000000000001.drbin:system/vendor/app/FFFFFFFF000000000000000000000001.drbin \
+    $(LOCAL_PATH)/proprietary/vendor/app/mcRegistry/00060308060501020000000000000000.tlbin:system/vendor/app/mcRegistry/00060308060501020000000000000000.tlbin \
+    $(LOCAL_PATH)/proprietary/vendor/app/mcRegistry/02010000080300030000000000000000.tlbin:system/vendor/app/mcRegistry/02010000080300030000000000000000.tlbin \
+    $(LOCAL_PATH)/proprietary/vendor/app/mcRegistry/07010000000000000000000000000000.tlbin:system/vendor/app/mcRegistry/07010000000000000000000000000000.tlbin \
+    $(LOCAL_PATH)/proprietary/vendor/app/mcRegistry/07060000000000000000000000000000.tlbin:system/vendor/app/mcRegistry/07060000000000000000000000000000.tlbin \
+    $(LOCAL_PATH)/proprietary/vendor/app/mcRegistry/08130000000000000000000000000000.tlbin:system/vendor/app/mcRegistry/08130000000000000000000000000000.tlbin \
+    $(LOCAL_PATH)/proprietary/vendor/app/mcRegistry/ffffffff00000000000000000000000a.tlbin:system/vendor/app/mcRegistry/ffffffff00000000000000000000000a.tlbin \
+    $(LOCAL_PATH)/proprietary/vendor/app/mcRegistry/ffffffff00000000000000000000000c.tlbin:system/vendor/app/mcRegistry/ffffffff00000000000000000000000c.tlbin \
+    $(LOCAL_PATH)/proprietary/vendor/app/mcRegistry/ffffffff00000000000000000000000d.tlbin:system/vendor/app/mcRegistry/ffffffff00000000000000000000000d.tlbin \
+    $(LOCAL_PATH)/proprietary/vendor/app/mcRegistry/ffffffff00000000000000000000000f.tlbin:system/vendor/app/mcRegistry/ffffffff00000000000000000000000f.tlbin \
+    $(LOCAL_PATH)/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000004.tlbin:system/vendor/app/mcRegistry/ffffffff000000000000000000000004.tlbin \
+    $(LOCAL_PATH)/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000005.tlbin:system/vendor/app/mcRegistry/ffffffff000000000000000000000005.tlbin \
+    $(LOCAL_PATH)/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000012.tlbin:system/vendor/app/mcRegistry/ffffffff000000000000000000000012.tlbin \
+    $(LOCAL_PATH)/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000013.tlbin:system/vendor/app/mcRegistry/ffffffff000000000000000000000013.tlbin \
+    $(LOCAL_PATH)/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000016.tlbin:system/vendor/app/mcRegistry/ffffffff000000000000000000000016.tlbin \
+    $(LOCAL_PATH)/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000017.tlbin:system/vendor/app/mcRegistry/ffffffff000000000000000000000017.tlbin \
+    $(LOCAL_PATH)/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000019.tlbin:system/vendor/app/mcRegistry/ffffffff000000000000000000000019.tlbin \
+    $(LOCAL_PATH)/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000021.tlbin:system/vendor/app/mcRegistry/ffffffff000000000000000000000021.tlbin \
+    $(LOCAL_PATH)/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000041.tlbin:system/vendor/app/mcRegistry/ffffffff000000000000000000000041.tlbin \
+    $(LOCAL_PATH)/proprietary/vendor/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin:system/vendor/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin \
+    $(LOCAL_PATH)/proprietary/vendor/app/mcRegistry/ffffffffd00000000000000000000004.tlbin:system/vendor/app/mcRegistry/ffffffffd00000000000000000000004.tlbin \
+    $(LOCAL_PATH)/proprietary/vendor/app/mcRegistry/ffffffffd00000000000000000000016.tlbin:system/vendor/app/mcRegistry/ffffffffd00000000000000000000016.tlbin \
+    $(LOCAL_PATH)/proprietary/vendor/app/mcRegistry/FFFFFFFFD00000000000000000000016.tlbin:system/vendor/app/mcRegistry/FFFFFFFFD00000000000000000000016.tlbin \
+    $(LOCAL_PATH)/proprietary/vendor/app/mcRegistry/fffffffff0000000000000000000001e.tlbin:system/vendor/app/mcRegistry/fffffffff0000000000000000000001e.tlbin \
+    $(LOCAL_PATH)/proprietary/vendor/bin/cs:system/vendor/bin/cs \
     $(LOCAL_PATH)/proprietary/vendor/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_ANALOG_DOCK.txt:system/vendor/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_ANALOG_DOCK.txt \
     $(LOCAL_PATH)/proprietary/vendor/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt:system/vendor/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt \
     $(LOCAL_PATH)/proprietary/vendor/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_EARPIECE.txt:system/vendor/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_EARPIECE.txt \
@@ -142,28 +142,28 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_SPEAKER.txt:system/vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_SPEAKER.txt \
     $(LOCAL_PATH)/proprietary/vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:system/vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
     $(LOCAL_PATH)/proprietary/vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:system/vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
-    $(LOCAL_PATH)/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:system/lib/omx/libOMX.Exynos.AVC.Decoder.so \
-    $(LOCAL_PATH)/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so \
-    $(LOCAL_PATH)/proprietary/lib/omx/libOMX.Exynos.MPEG4.Decoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Decoder.so \
-    $(LOCAL_PATH)/proprietary/lib/omx/libOMX.Exynos.MPEG4.Encoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Encoder.so \
-    $(LOCAL_PATH)/proprietary/lib/omx/libOMX.Exynos.VP8.Decoder.so:system/lib/omx/libOMX.Exynos.VP8.Decoder.so \
-    $(LOCAL_PATH)/proprietary/lib/omx/libOMX.Exynos.VP8.Encoder.so:system/lib/omx/libOMX.Exynos.VP8.Encoder.so \
-    $(LOCAL_PATH)/proprietary/lib/omx/libOMX.Exynos.WMV.Decoder.so:system/lib/omx/libOMX.Exynos.WMV.Decoder.so \
-    $(LOCAL_PATH)/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
-    $(LOCAL_PATH)/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
-    $(LOCAL_PATH)/proprietary/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so \
-    $(LOCAL_PATH)/proprietary/lib/hw/sensors.universal7580.so:system/lib/hw/sensors.universal7580.so \
-    $(LOCAL_PATH)/proprietary/lib/libinvensense_hal.so:system/lib/libinvensense_hal.so \
-    $(LOCAL_PATH)/proprietary/lib/libmllite.so:system/lib/libmllite.so \
-    $(LOCAL_PATH)/proprietary/lib/libmplmpu.so:system/lib/libmplmpu.so \
-    $(LOCAL_PATH)/proprietary/lib/libyasalgo.so:system/lib/libyasalgo.so \
-    $(LOCAL_PATH)/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
-    $(LOCAL_PATH)/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
-    $(LOCAL_PATH)/proprietary/etc/wifi/bcmdhd_ibss.bin:system/etc/wifi/bcmdhd_ibss.bin \
-    $(LOCAL_PATH)/proprietary/etc/wifi/bcmdhd_mfg.bin:system/etc/wifi/bcmdhd_mfg.bin \
-    $(LOCAL_PATH)/proprietary/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin \
-    $(LOCAL_PATH)/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
-    $(LOCAL_PATH)/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
-    $(LOCAL_PATH)/proprietary/etc/sec_s3fwrn7_rfreg.bin:system/etc/sec_s3fwrn7_rfreg.bin \
-    $(LOCAL_PATH)/proprietary/lib/hw/nfc_nci.universal7580.so:system/lib/hw/nfc_nci.universal7580.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/omx/libOMX.Exynos.AVC.Decoder.so:system/vendor/lib/omx/libOMX.Exynos.AVC.Decoder.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/vendor/lib/omx/libOMX.Exynos.AVC.Encoder.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/omx/libOMX.Exynos.MPEG4.Decoder.so:system/vendor/lib/omx/libOMX.Exynos.MPEG4.Decoder.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/omx/libOMX.Exynos.MPEG4.Encoder.so:system/vendor/lib/omx/libOMX.Exynos.MPEG4.Encoder.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/omx/libOMX.Exynos.VP8.Decoder.so:system/vendor/lib/omx/libOMX.Exynos.VP8.Decoder.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/omx/libOMX.Exynos.VP8.Encoder.so:system/vendor/lib/omx/libOMX.Exynos.VP8.Encoder.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/omx/libOMX.Exynos.WMV.Decoder.so:system/vendor/lib/omx/libOMX.Exynos.WMV.Decoder.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libsecnativefeature.so:system/vendor/lib/libsecnativefeature.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libsec-ril.so:system/vendor/lib/libsec-ril.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libsec-ril-dsds.so:system/vendor/lib/libsec-ril-dsds.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/hw/sensors.universal7580.so:system/vendor/lib/hw/sensors.universal7580.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libinvensense_hal.so:system/vendor/lib/libinvensense_hal.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmllite.so:system/vendor/lib/libmllite.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmplmpu.so:system/vendor/lib/libmplmpu.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libyasalgo.so:system/vendor/lib/libyasalgo.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libstagefright_hdcp.so:system/vendor/lib/libstagefright_hdcp.so \
+    $(LOCAL_PATH)/proprietary/vendor/etc/wifi/bcmdhd_apsta.bin:system/vendor/etc/wifi/bcmdhd_apsta.bin \
+    $(LOCAL_PATH)/proprietary/vendor/etc/wifi/bcmdhd_ibss.bin:system/vendor/etc/wifi/bcmdhd_ibss.bin \
+    $(LOCAL_PATH)/proprietary/vendor/etc/wifi/bcmdhd_mfg.bin:system/vendor/etc/wifi/bcmdhd_mfg.bin \
+    $(LOCAL_PATH)/proprietary/vendor/etc/wifi/bcmdhd_sta.bin:system/vendor/etc/wifi/bcmdhd_sta.bin \
+    $(LOCAL_PATH)/proprietary/vendor/etc/wifi/nvram_mfg.txt:system/vendor/etc/wifi/nvram_mfg.txt \
+    $(LOCAL_PATH)/proprietary/vendor/etc/wifi/nvram_net.txt:system/vendor/etc/wifi/nvram_net.txt \
+    $(LOCAL_PATH)/proprietary/vendor/etc/sec_s3fwrn7_rfreg.bin:system/vendor/etc/sec_s3fwrn7_rfreg.bin \
+    $(LOCAL_PATH)/proprietary/vendor/lib/hw/nfc_nci.universal7580.so:system/vendor/lib/hw/nfc_nci.universal7580.so
     $(LOCAL_PATH)/proprietary/vendor/firmware/sec_s3fwrn7_firmware.bin:system/vendor/firmware/sec_s3fwrn7_firmware.bin
