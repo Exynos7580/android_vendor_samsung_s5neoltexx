@@ -1,9 +1,10 @@
-# SS 43455 S5-NEO Rev0.3 NVRAM 20150630 for FW53 _ 11b 1dB up
+# SS 43455 S5-NEO Canada Rev0.0 NVRAM 20151002
+# tuned 5G PA parameter
 
 NVRAMRev=$Rev: 498373 $
 sromrev=11
-ccode=GB
-regrev=6
+ccode=Q2
+regrev=993
 vendid=0x14e4
 devid=0x43ab
 manfid=0x2d0
@@ -35,33 +36,33 @@ AvVmid_c0=0,157,1,126,1,126,1,126,1,126
 ag0=0
 ag1=0
 
-## new PA parameter with filter matching
+## new PA parameter with filter matching, 5G low range : 0 to 15 dBm
 pa2ga0=0xff4f,0x1641,0xfd5e
 pa2ga1=0xff5e,0x0ee8,0xfdec
-pa5ga0=0xff4f,0x15c1,0xfd6a,0xff4f,0x161d,0xfd62,0xff5c,0x153a,0xfd84,0xff8a,0x1555,0xfda3
-pa5ga1=0xff60,0x0ec4,0xfdf6,0xff55,0x0e20,0xfe0b,0xff6a,0x0ddb,0xfe0a,0xff7f,0x0d43,0xfe14
+pa5ga0=0xff78,0x15c4,0xfd83,0xff73,0x1584,0xfd87,0xff89,0x159f,0xfd9f,0xff8f,0x157a,0xfdb0
+pa5ga1=0x008d,0x0f69,0xfdf7,0x00af,0x0f3c,0xfe0a,0x0095,0x0f04,0xfe27,0x001c,0x0ed0,0xfdfa
 
 cckpwroffset0=-4
 
 maxp2ga0=74
-ofdmlrbw202gpo=0x4444
-dot11agofdmhrbw202gpo=0x6644
-mcsbw202gpo=0xaa888664
+ofdmlrbw202gpo=0x2221
+dot11agofdmhrbw202gpo=0x4422
+mcsbw202gpo=0xaa666442
 maxp5ga0=74,74,74,74
-mcsbw205glpo=0x88866642
-mcsbw205gmpo=0x88866642
-mcsbw205ghpo=0x88866642
-mcsbw405glpo=0xaaa88864
-mcsbw405gmpo=0xaaa88864
-mcsbw405ghpo=0xaaa88864
-mcsbw805glpo=0xcccaaa86
-mcsbw805gmpo=0xcccaaa86
-mcsbw805ghpo=0xcccaaa86
+mcsbw205glpo=0x88644420
+mcsbw205gmpo=0x88644420
+mcsbw205ghpo=0x88644420
+mcsbw405glpo=0xaa866642
+mcsbw405gmpo=0xaa866642
+mcsbw405ghpo=0xaa866642
+mcsbw805glpo=0xcca88864
+mcsbw805gmpo=0xcca88864
+mcsbw805ghpo=0xcca88864
 
 itrsw=1
 pdoffset2g40ma0=10
-pdoffset40ma0=0x8888
-pdoffset80ma0=0x8888
+pdoffset40ma0=0xaaaa
+pdoffset80ma0=0xaaaa
 extpagain5g=2
 extpagain2g=2
 lowpowerrange2g=0
@@ -111,3 +112,11 @@ ldo1=4
 rawtempsense=0x1ff
 cckPwrIdxCorr=3
 dot11b_opts=0x3aa85
+
+btc_params1003=0
+btc_params1005=0
+
+# 2G CH12/CH13 TX power limit ?“q dBm
+#fccpwrch12=
+#fccpwrch13=
+#fccpwroverride=0
